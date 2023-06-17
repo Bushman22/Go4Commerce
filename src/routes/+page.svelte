@@ -7,7 +7,7 @@
 <title>Go4Commerce</title>
 <body>
 <link rel="stylesheet" href="/src/style.css">
- <script src = "/src/dropdown.js"></script>
+<script src = "/src/dropdown.js"></script>
 <header class="header">
     <nav class="navbar">
         <logo><img src="\images\go4logo.png" alt="logo"></logo>
