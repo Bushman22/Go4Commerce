@@ -6,7 +6,7 @@
 
 <title>Go4Commerce</title>
 <body>
-<link rel="stylesheet" type= "text/css" href="/src/style.css">
+<link rel="stylesheet" type= "text/css" href="style.css">
 <script src = "/src/dropdown.js"></script>
 <header class="header">
     <nav class="navbar">
