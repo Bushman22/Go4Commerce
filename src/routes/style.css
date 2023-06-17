@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+font-family: Questrial;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 55px;
+font-size: 60px;
+color: #20405F;
+}
+
+h2{
+    font-family: Questrial;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 48px;
+    color: #20405F;
+    
+}
+
+h3{
+    font-family: Questrial;
+    font-weight: normal;
+    text-transform: capitalize;
+    line-height: 45px;
+    font-size: 24px;
+    color: #20405F;
+    
+}
+
+h4{
+    font-family: Nunito Sans;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height:25px;
+    font-size: 18px;
+    color: #20405F;   
+}
+body{
+    font-family: Nunito Sans;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 23px;
+    font-size: 18px;
+    color: #7C7B87;
+    
+}
+
+logo{
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    overflow:hidden;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-item {
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 35px;
+    
+}
+
+.nav-item1 {
+    margin-top:0px;
+    margin-left: 26px;
+    padding:45px 40px;
+    background-color:#F9A53B;
+}
+.nav-item2 {
+    font-size: 18px;
+    margin-top:0px;
+    padding:45px 40px;
+    background-color:#20405F;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 300;
+    color:#20405F;
+}
+
+.nav-link1{
+    font-size: 18px;
+    font-weight: 300;
+    color:white;
+}
+
+.dropdown{
+    display:flex; 
+}
+
+
+
+.dropdown .dropbtn{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-family: Nunito Sans;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height:25px;
+    font-size: 18px;
+    color: #20405F; 
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    top:70px;
+    background-color:rgb(209, 209, 209);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+.show{
+    display:block;
+}
+
+
+ 
