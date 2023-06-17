@@ -2,7 +2,7 @@
 <script>
 
 </script>
-<link rel="stylesheet" href="src/routes/style.css">
+<link rel="stylesheet" href="style.css">
 <title>Templates</title>
 <body>
 

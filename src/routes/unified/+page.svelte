@@ -8,8 +8,9 @@
 
 <header class="header">
     <nav class="navbar">
-        <logo><img src="\images\go4logo.png" alt="logo"></logo>
+        
         <ul class="nav-menu">
+            <logo><img src="\images\go4logo.png" alt="logo"></logo>
             <li class="nav-item">
                 <a href="/about" class="nav-link">Features & functionality</a>
             </li>

@@ -53,7 +53,7 @@ body{
 }
 
 logo{
-    margin-left: 50px;
+ padding-left: 40px;   
 }
 
 li {
@@ -67,38 +67,37 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     height:100px;
     overflow:hidden;
+    
 }
 
 
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     
 }
 
 .nav-item {
-    margin-top:20px;
-    margin-right: 20px;
-    margin-left: 35px;
+    margin:0;
+    padding-top:15px;
+    padding-right: 35px;
     
 }
 
 .nav-item1 {
-    margin-top:0px;
-    margin-left: 26px;
-    padding:45px 40px;
+    
+    padding:40px 30px;
     background-color:#F9A53B;
 }
 .nav-item2 {
     font-size: 18px;
-    margin-top:0px;
-    padding:45px 40px;
+    padding:40px 30px;
     background-color:#20405F;
 }
 
@@ -124,9 +123,8 @@ a {
     border:none;
     outline:none;
     background-color: transparent;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding-right:35px;
+    padding-top:15px;
     cursor:pointer;
     font-family: Nunito Sans;
     font-weight: 300;
