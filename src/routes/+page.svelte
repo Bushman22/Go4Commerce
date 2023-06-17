@@ -3,10 +3,10 @@
 
 
 
-<link rel="stylesheet" href="src/routes/style.css">
+<link rel="stylesheet" href="/src/style.css">
 <title>Go4Commerce</title>
 <body>
- <script src = "src/routes/dropdown.js"></script>
+ <script src = "/src/dropdown.js"></script>
 <header class="header">
     <nav class="navbar">
         <logo><img src="\images\go4logo.png" alt="logo"></logo>
