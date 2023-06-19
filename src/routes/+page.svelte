@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <title>Go4Commerce</title>
 <body>
 <link rel="stylesheet" type= "text/css" href="style.css">
@@ -14,7 +9,7 @@
         <ul class="nav-menu">
             <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
             <div class="dropdown">
-                <button onclick="myFunction1()" class="dropbtn">Components
+                <button onclick="myFunction1()" class="dropbtn">Components &#11167
                     <i class="fa fa-caret-down"></i></button>
                <div class="dropdown-content" id = "myDropdown">
                   <a href="/admin">Admin Panel</a>
@@ -26,7 +21,7 @@
             </div>
             
             <div class="dropdown">
-                <button onclick="myFunction2()" class="dropbtn">About Us
+                <button onclick="myFunction2()" class="dropbtn">About Us &#11167
                     <i class="fa fa-caret-down"></i>
                 </button>
                <div class="dropdown-content" id= "myDropdownbutton" >
@@ -88,7 +83,7 @@
                 <h3><li>Unified Shopping Cart</li></h3>
                 <p>A powerful & secure shopping cart for your <br/>
                     platform</p>
-                <a href ="Unified"><h4>Find out more &#x2192</h4></a>  
+                <a href ="unified"><h4>Find out more &#x2192</h4></a>  
                 <h3><li>Payment Gateway</li></h3>
                 <p>Any payment gateway and all of your <br/>
                      transactions, in one place!</p>
@@ -155,6 +150,10 @@ h4{
     padding-top: 30px;
     padding-left: 50px;
 }
+.img2{
+    height:500px;
+    padding-top: 55px;
+}
 
 .img4{
 padding-bottom: 100px;
@@ -184,10 +183,6 @@ p{
 
 }
 
-.col-bottom{
-text-align: top;
-
-}
 .col-top{
     padding-top:100px;
     
@@ -238,7 +233,7 @@ padding-bottom: 30px;
 .frontend{
     display:flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 .frontendpara{
     padding-top: 200px;
