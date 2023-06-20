@@ -5,7 +5,7 @@
 <script src = "dropdown.js"></script>
 <header class="header">
     <nav class="navbar">
-        <logo><img src="\images\go4logo.png" alt="logo"></logo>
+        <logo><a href = "/"><img src="\images\go4logo.png" alt="logo"></a></logo>
         <ul class="nav-menu">
             <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
             <div class="dropdown">
