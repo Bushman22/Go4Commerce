@@ -252,7 +252,7 @@ padding-bottom: 30px;
 
 .footer{
     width:100%;
-    background-color:#454545 ;
+    background-color:lightgray ;
     padding-top: 50px;
 }
 </style>

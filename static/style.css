@@ -59,7 +59,6 @@ logo{
 }
 
 logo2{
-    background-color: #454545;
     padding-left: 100px;
     
 }
@@ -78,9 +77,6 @@ a {
     justify-content:space-between;
     align-items: center;
     height:100px;
-    overflow:hidden;
-    
-    
 }
 
 
@@ -100,10 +96,10 @@ a {
 }
 
 .nav-item1 {
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    box-shadow: -5px 5px 20px rgba(0,0,0,0.2);
     padding:40px 25px;
     background-color:#EE4B2B ;
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 10px;
 }
 .nav-item2 {
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
