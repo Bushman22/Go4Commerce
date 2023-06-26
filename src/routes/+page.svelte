@@ -5,7 +5,7 @@
 <script src = "dropdown.js"></script>
 <header class="header">
     <nav class="navbar">
-        <logo><a href = "/"><img src="\images\go4logo.png" alt="logo"></a></logo>
+        <logo><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:32px></a></logo>
         <ul class="nav-menu">
             <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
             <div class="dropdown">
@@ -83,7 +83,7 @@
                 <h3><li>Unified Shopping Cart</li></h3>
                 <p>A powerful & secure shopping cart for your <br/>
                     platform</p>
-                <a href ="unified"><h4>Find out more &#x2192</h4></a>  
+                <a href ="/unified"><h4>Find out more &#x2192</h4></a>  
                 <h3><li>Payment Gateway</li></h3>
                 <p>Any payment gateway and all of your <br/>
                      transactions, in one place!</p>
