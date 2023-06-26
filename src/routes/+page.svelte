@@ -250,9 +250,5 @@ padding-bottom: 30px;
    padding-top: 150px;
 }
 
-.footer{
-    width:100%;
-    background-color:lightgray ;
-    padding-top: 50px;
-}
+
 </style>
