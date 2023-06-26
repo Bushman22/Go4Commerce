@@ -41,7 +41,7 @@
     <p>For even the most sophisticated business models,
          we<br/> provide an all-in-one, headless and multiple 
         integration<br/> template-based platform. </p>
-        <h4><a href = "/admin">Admin Login &#x2192</a></h4>
+        <a href = "/admin"><h4>Admin Login &#x2192</h4></a>
    
 </div>
 <img class= "img1" src ="\images\Homepage banner illustration.png" alt="banner">
@@ -69,7 +69,7 @@
         <p>Go4Commerce has evolved to be everything you <br/>
             need to sell anything you can imagine. Showcase<br/>
              your products at their absolute best.</p>
-        <h4><a href = "/features">Features & Functions &#x2192</a></h4>
+        <a href = "/features"><h4>Features & Functions &#x2192</h4></a>
     </div>
 
     <div class ="integrations">
@@ -117,7 +117,7 @@
             </div>
 
 <div class = "footer">
-    <logo2><img src="\images\logowhite.png" alt="logo"></logo2>
+    <logo2><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:40px></a></logo2>
 
                 
                 
@@ -252,6 +252,7 @@ padding-bottom: 30px;
 
 .footer{
     width:100%;
-    background-color: #20405F;
+    background-color:#454545 ;
+    padding-top: 50px;
 }
 </style>
