@@ -14,7 +14,7 @@
         <ul class="nav-menu">
             <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
             <div class="dropdown">
-                <li onclick="myFunction1()" class="dropbtn">Components &#11167
+                <li onclick="myFunction1()" class="dropbtn">Components <b>&#709;</b>
                     <i class="fa fa-caret-down"></i></li>
                <div class="dropdown-content1" id = "myDropdown">
                   <a href="/admin">Admin Panel</a>
@@ -26,7 +26,7 @@
             </div>
             
             <div class="dropdown">
-                <li onclick="myFunction2()" class="dropbtn">About Us &#11167
+                <li onclick="myFunction2()" class="dropbtn">About Us <b>&#709;</b>
                     <i class="fa fa-caret-down"></i>
                 </li>
                <div class="dropdown-content2" id= "myDropdownbutton" >
