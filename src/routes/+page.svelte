@@ -10,7 +10,7 @@
 
 <header class="header">
     <nav class="navbar">
-        <logo><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:32px></a></logo>
+        <logo><a href = "/"><img class = "logo1" src="\images\go4logo.png" alt="logo" style=height:32px></a></logo>
         <ul class="nav-menu">
             <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
             <div class="dropdown">
@@ -59,6 +59,7 @@
      We develop <br/>eCommerce websites with powerful tools that can help you reach your customers, drive sales, bookings, 
      and manage<br/> your daily operations.
 </div>
+<div class="box">
     <div class ="col-left">
         <div class ="col-top" >
             <img class= "ff" src ="\images\F&F image 1.jpg" alt="img1">
@@ -66,7 +67,7 @@
         </div>
         <div class ="col-bottom">
             <img class= "ff1" src ="\images\F&F Image 3.jpg" alt="img3">
-            <img class= "ff" src ="\images\F&F Image 4.jpg" alt="img4">
+            <img class= "ff3" src ="\images\F&F Image 4.jpg" alt="img4">
             <img class= "ff2" src ="\images\F&F Image 5.jpg" alt="img5">
         </div>
     </div>
@@ -78,6 +79,7 @@
             need to sell anything you can imagine. Showcase<br/>
              your products at their absolute best.</p>
         <a href = "/features"><h4>Features & Functions &#x2192</h4></a>
+    </div>
     </div>
 
     <div class ="integrations">
@@ -125,10 +127,8 @@
             </div>
 
 <div class = "footer">
-    <logo2><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:40px></a></logo2>
-
-                
-                
+    <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
+        
 </div>
 
 <script src = "dropdown.js"></script>
@@ -195,20 +195,15 @@ p{
 
 .col-top{
     padding-top:100px;
-    
- 
-
 }
 
 .col-right{
 padding-top:220px;
 padding-bottom: 200px;
-
 }
 
 .col-right a{
-    color:#20405F;
-    
+    color:#20405F; 
 }
 
 .ff{
@@ -225,6 +220,10 @@ padding:10px;
 padding-bottom: 30px;
 }
 
+.ff3{
+padding:10px;
+
+}
 .integrations{
     display:flex;
     justify-content: space-around;
@@ -258,6 +257,126 @@ padding-bottom: 30px;
 .hirepara{
    padding-right: 100px;
    padding-top: 150px;
+}
+
+@media only screen and (max-width:768px){
+
+.img1{
+    height: 250px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.img2{
+    height:320px;
+}
+
+.img3{
+    height:360px;
+}
+
+.img4{
+    height:300px;
+}
+
+.top{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    padding-top: 10px;
+     margin-left:20px ;
+     padding-right: 0px;
+     
+
+}
+
+.paragraph{
+    margin: 20px; 
+
+    
+}
+
+.col-left{
+    text-align: center;
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-top{
+    display: flex;
+    justify-content: center;
+  padding: 0px;
+}
+
+.col-bottom{
+    display: flex;
+    justify-content: center;
+  text-align: left;
+  padding: 0px;
+ 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.ff{
+padding:5px;
+height:130px;
+
+}
+.ff1{
+padding:5px;
+padding-bottom: 75px;
+height:70px;
+
+}
+.ff2{
+padding:5px;
+padding-bottom: 30px;
+height:70px;
+}
+
+.ff3{
+padding:5px;
+height:100px;
+}
+
+.col-right{
+padding-top:20px;
+padding-bottom: 0px;
+margin-left: 20px;
+}
+
+.integrations{
+    flex-direction: column;
+}
+
+.frontend{
+    flex-direction: column;
+    margin-left:20px;
+}
+.frontendpara{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.hire{
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 0px;
+}
+.hirepara{
+   padding-right: 0px;
+   padding-top: 50px;
+}
 }
 
 </style>
