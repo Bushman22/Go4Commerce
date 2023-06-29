@@ -304,6 +304,7 @@ padding:10px;
   text-align: right;
   padding-left: 0px;
   padding-right: 0px;
+  margin-left: 20px;
 }
 
 .col-top{
@@ -327,24 +328,24 @@ padding:10px;
 
 .ff{
 padding:5px;
-height:130px;
+height:120px;
 
 }
 .ff1{
 padding:5px;
 padding-bottom: 75px;
-height:70px;
+height:60px;
 
 }
 .ff2{
 padding:5px;
 padding-bottom: 30px;
-height:70px;
+height:60px;
 }
 
 .ff3{
 padding:5px;
-height:100px;
+height:90px;
 }
 
 .col-right{
