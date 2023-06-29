@@ -45,7 +45,27 @@
         <img class= "img1" src ="\images\Our reseller banner illustration-1.jpg" alt="banner" style = height:400px>
         </div>
 
+        <div class = "build">
+            <img class = "buildimage" src = "\images\They build your vision Image.jpg" alt="build">
+                <div class ="buildpara">
+                    <h2>THEY BUILD YOUR<br/>VISION</h2>
+                    <p>Spread out across the world, our reseller will<br/>
+                        handle every part of your online journey, including<br/>
+                        content writing, web development, platform<br/>
+                        design, hosting, and website maintenance. They<br/>
+                        take care of all of these factors allowing you to<br/>
+                        focus your time on what you do best: running your<br/>
+                        business.</p>
+                </div>
+        </div>
 
+        <div class="find">
+            <h2>FIND OUR RESELLERS</h2>
+        </div>
+
+        <div class="map">
+            <img class = "mapimage" src = "\images\map.png" alt="map">
+        </div>
 </body>
 
 
@@ -61,12 +81,29 @@
     padding-top: 80px;
 }
 
+.build{
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+}
 
+.buildpara{
+    padding-top: 50px;
+}
 
+.buildimage{
+    height:350px;
+    padding-right:30px
+}
 
+.find{
+    padding-top:100px;
+    text-align: center;
+}
 
-
-
+.map{
+    text-align: center;
+}
 
 
 </style>
