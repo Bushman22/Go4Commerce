@@ -204,11 +204,14 @@ a {
 @media(max-width: 768px) {
 
     h1{
+        font-size: 50px;
+    }
+    h2{
         font-size: 40px;
     }
 
     .footer{
-        width:110%;
+        width:100%;
         background-color:lightgray;
     }
 
