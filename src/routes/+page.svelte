@@ -63,7 +63,7 @@
     <div class ="col-left">
         <div class ="col-top" >
             <img class= "ff" src ="\images\F&F image 1.jpg" alt="img1">
-            <img class= "ff" src ="\images\F&F Image 2.jpg" alt="img2">
+            <img class= "ff4" src ="\images\F&F Image 2.jpg" alt="img2">
         </div>
         <div class ="col-bottom">
             <img class= "ff1" src ="\images\F&F Image 3.jpg" alt="img3">
@@ -224,6 +224,11 @@ padding-bottom: 30px;
 padding:10px;
 
 }
+
+.ff4{
+padding:10px;
+
+}
 .integrations{
     display:flex;
     justify-content: space-around;
@@ -315,8 +320,8 @@ padding:10px;
 
 .col-bottom{
     display: flex;
-    justify-content: center;
-  text-align: left;
+    justify-content: left;
+
   padding: 0px;
  
 }
@@ -346,6 +351,13 @@ height:60px;
 .ff3{
 padding:5px;
 height:90px;
+}
+
+.ff4{
+margin-top: 17px;
+padding:5px;
+height: 100px;
+
 }
 
 .col-right{
