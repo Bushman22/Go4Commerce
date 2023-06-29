@@ -106,7 +106,7 @@
     <div class ="frontend">
         <img class= "img3" src ="\images\homepage stunning frontend illustration.png" alt="fontend">
         <div class ="frontendpara">
-            <h1>STUNNING <br/> FRONTEND DESIGN</h1>
+            <h2>STUNNING <br/> FRONTEND DESIGN</h2>
             <p>Pick one of our ready-made templates with an already<br/>
                  written code base and a design based on the product you<br/>
                   want to sell. From there, we custom design and build your<br/>
@@ -116,7 +116,7 @@
      </div>
             <div class ="hire">
                 <div class ="hirepara">
-                    <h1>HIRE THE <br/> GO4COMMERCE <br/> EXPERTS</h1>
+                    <h2>HIRE THE <br/> GO4COMMERCE <br/> EXPERTS</h2>
                     <p> Our resellers know how to design, develop, and <br/>
                         maintain your platform, no matter where you are in<br/>
                          the world.</p>
