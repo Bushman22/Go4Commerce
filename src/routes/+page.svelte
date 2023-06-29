@@ -16,7 +16,7 @@
             <div class="dropdown">
                 <li onclick="myFunction1()" class="dropbtn">Components &#11167
                     <i class="fa fa-caret-down"></i></li>
-               <div class="dropdown-content" id = "myDropdown">
+               <div class="dropdown-content1" id = "myDropdown">
                   <a href="/admin">Admin Panel</a>
                   <a href="/templates">Template Design</a>
                   <a href="/integrations">Integrations</a>
@@ -29,7 +29,7 @@
                 <li onclick="myFunction2()" class="dropbtn">About Us &#11167
                     <i class="fa fa-caret-down"></i>
                 </li>
-               <div class="dropdown-content" id= "myDropdownbutton" >
+               <div class="dropdown-content2" id= "myDropdownbutton" >
                   <a href="/team">Meet the Team</a>
                   <a href="/resellers">Our Resellers</a>
                 </div>
