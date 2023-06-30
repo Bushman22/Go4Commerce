@@ -267,13 +267,13 @@ padding:10px;
 @media only screen and (max-width:768px){
 
 .img1{
-    height: 250px;
+    height: 300px;
     padding-top: 0px;
     padding-left: 0px;
 }
 
 .img2{
-    height:320px;
+    height:360px;
 }
 
 .img3{
@@ -281,7 +281,7 @@ padding:10px;
 }
 
 .img4{
-    height:300px;
+    height:360px;
 }
 
 .top{
@@ -321,9 +321,7 @@ padding:10px;
 .col-bottom{
     display: flex;
     justify-content: left;
-
-  padding: 0px;
- 
+    padding: 0px;
 }
 .box{
     display: flex;
