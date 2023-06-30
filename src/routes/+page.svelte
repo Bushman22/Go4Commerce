@@ -267,13 +267,13 @@ padding:10px;
 @media only screen and (max-width:768px){
 
 .img1{
-    height: 300px;
+    height: 250px;
     padding-top: 0px;
     padding-left: 0px;
 }
 
 .img2{
-    height:360px;
+    height:320px;
 }
 
 .img3{
