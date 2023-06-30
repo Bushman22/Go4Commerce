@@ -203,6 +203,10 @@ a {
 
 @media(max-width: 768px) {
 
+    br{
+        display: none;
+    }
+
     h1{
         font-size: 50px;
     }
