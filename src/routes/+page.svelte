@@ -267,13 +267,14 @@ padding:10px;
 @media only screen and (max-width:768px){
 
 .img1{
-    height: 250px;
+    transform: scale(0.9);
     padding-top: 0px;
     padding-left: 0px;
 }
 
 .img2{
     height:320px;
+    -left: 0px;
 }
 
 .img3{
@@ -281,7 +282,7 @@ padding:10px;
 }
 
 .img4{
-    height:360px;
+    transform: scale(0.9);
 }
 
 .top{
@@ -292,24 +293,20 @@ padding:10px;
 
 .one{
     padding-top: 10px;
-     margin-left:20px ;
-     padding-right: 0px;
+ padding: 20px;
      
 
 }
 
 .paragraph{
-    margin: 20px; 
-
-    
+   padding: 20px;
 }
 
 .col-left{
     text-align: center;
   text-align: right;
   padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 20px;
+    padding: 20px;
 }
 
 .col-top{
@@ -366,6 +363,7 @@ margin-left: 20px;
 
 .integrations{
     flex-direction: column;
+    
 }
 
 .frontend{

@@ -8,13 +8,13 @@
     <script src = "dropdown.js"></script>
     <header class="header">
         <nav class="navbar">
-            <logo><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:32px></a></logo>
+            <logo><a href = "/"><img class = "logo1" src="\images\go4logo.png" alt="logo" style=height:32px></a></logo>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="/features" class="nav-link">Features & Functionality</a></li>
                 <div class="dropdown">
-                    <button onclick="myFunction1()" class="dropbtn">Components &#11167
-                        <i class="fa fa-caret-down"></i></button>
-                   <div class="dropdown-content" id = "myDropdown">
+                    <li onclick="myFunction1()" class="dropbtn">Components <b>&#709;</b>
+                        <i class="fa fa-caret-down"></i></li>
+                   <div class="dropdown-content1" id = "myDropdown">
                       <a href="/admin">Admin Panel</a>
                       <a href="/templates">Template Design</a>
                       <a href="/integrations">Integrations</a>
@@ -24,10 +24,10 @@
                 </div>
                 
                 <div class="dropdown">
-                    <button onclick="myFunction2()" class="dropbtn">About Us &#11167
+                    <li onclick="myFunction2()" class="dropbtn">About Us <b>&#709;</b>
                         <i class="fa fa-caret-down"></i>
-                    </button>
-                   <div class="dropdown-content" id= "myDropdownbutton" >
+                    </li>
+                   <div class="dropdown-content2" id= "myDropdownbutton" >
                       <a href="/team">Meet the Team</a>
                       <a href="/resellers">Our Resellers</a>
                     </div>
@@ -36,6 +36,9 @@
                 <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
                 <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
             </ul>
+            <div class="ham" onclick="toggleClass()">
+                <h1>&#9776;</h1>
+            </div>
         </nav>
     </header>
     <div class ="payment">
