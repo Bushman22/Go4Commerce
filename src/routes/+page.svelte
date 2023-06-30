@@ -368,10 +368,10 @@ margin-left: 20px;
 
 .frontend{
     flex-direction: column-reverse;
-    margin-left:20px;
+    padding-left:20px;
 }
 .frontendpara{
-    padding-top: 50px;
+    padding-top: 10px;
     padding-left: 0px;
     padding-bottom: 0px;
     
