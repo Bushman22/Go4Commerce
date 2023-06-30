@@ -161,7 +161,7 @@
 
 
         <div class = "footer">
-            <logo2><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:40px></a></logo2>
+           <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
         
                         
                         
@@ -247,10 +247,14 @@
     }
 
     .featurespara{
-        padding-top: 00px;
+        padding-top: 0px;
     }
     .amaze{
         padding-top: 30px;
+    }
+
+    .amaze h2{
+        font-size:35px;
     }
 
     .center1{

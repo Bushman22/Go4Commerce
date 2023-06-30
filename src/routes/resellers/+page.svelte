@@ -69,6 +69,13 @@
         <div class="map">
             <img class = "mapimage" src = "\images\map.png" alt="map">
         </div>
+
+        <div class = "footer">
+            <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
+        
+                        
+                        
+        </div>
 </body>
 
 

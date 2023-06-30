@@ -144,7 +144,7 @@
         </div>
         
         <div class = "footer">
-            <logo2><a href = "/"><img src="\images\go4logo.png" alt="logo" style=height:40px></a></logo2>
+            <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
         
                         
                         
@@ -153,6 +153,7 @@
 
 
 <style>
+
 
 .admin{
     display: flex;
@@ -238,7 +239,9 @@ h3{
 }
 
 @media only screen and (max-width:768px){
-
+    .admin h1{
+    font-size: 40px;
+}
         .img1{
             transform: scale(0.9);
         }
@@ -259,7 +262,7 @@ h3{
         padding:20px;
     }
     .control{
-        flex-direction:column;
+        flex-direction:column-reverse;
         padding: 20px;
     }
 
@@ -271,7 +274,10 @@ h3{
         padding-top:0px;
         padding-left: 50px;
         text-align: left;
+    }
 
+    .adminrole h2{
+        font-size: 30px;
     }
 
     .platform{
@@ -279,9 +285,13 @@ h3{
     padding: 10px;
     text-align: left;
     }
+    .platform h2{
+        font-size: 27px;
+    }
 
     .platformpara{
-    padding-left:40px;
+        padding-right:20px;
+     padding-left:40px;
     }
 
     .ecommerce{

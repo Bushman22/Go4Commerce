@@ -46,7 +46,7 @@
         <div class ="contactpara">
             <h1>GET IN<br/>TOUCH WITH<br/>GO4COMMERCE</h1>
         </div>
-        <img class= "img1" src ="\images\Contact us banner illustration.jpg" alt="banner" style = height:400px>
+        <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
         </div>
 
 </body>
