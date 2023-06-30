@@ -50,7 +50,7 @@
         </div>
 
         <div class ="design">
-            <img class= "img1" src ="\images\template and design image.jpg" alt="design" style= height:350px>
+            <img class= "imgi" src ="\images\template and design image.jpg" alt="design" style= height:350px>
             <div class ="designpara">
                 <h2>TEMPLATE AND <br/>DESIGN</h2>
                 <ul>
@@ -196,6 +196,10 @@ h4{
     padding-right: 100px;
 }
 
+.imgi{
+    padding-right: 100px;
+}
+
 .features{
     text-align: center;
     padding-top: 100px;
@@ -232,5 +236,62 @@ padding-bottom: 70px;
 
 .apipara{
 padding-top: 100px;
+}
+
+@media only screen and (max-width:768px){
+
+    .img1{
+        transform: scale(0.9);
+        padding: 0px;
+    }
+
+    .imgi{
+        display: none;
+    }
+
+    .imgapi{
+        transform: scale(0.9);
+    }
+    .template{
+        flex-direction: column;
+    }
+
+    .templatepara{
+        padding:20px;
+        text-align: center;
+    }
+
+    .design{
+        flex-direction: column-reverse;
+        padding:20px;
+    }
+
+    .designpara{
+    padding-top: 10px;
+    padding-left: 40px;
+    
+}
+
+    .mid{
+        padding:20px;
+    }
+    .middle1{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .middle2{
+        flex-direction: column;
+        padding:10px;
+    }
+    .middle3{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .api{
+        flex-direction: column;
+        padding:20px;
+    }
 }
 </style>
