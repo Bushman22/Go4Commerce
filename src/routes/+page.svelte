@@ -367,7 +367,7 @@ margin-left: 20px;
 }
 
 .frontend{
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-left:20px;
 }
 .frontendpara{
