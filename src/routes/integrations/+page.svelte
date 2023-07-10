@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -85,22 +85,22 @@
             </div>
             <img class= "howimage" src ="\images\How it works illustration.jpg" alt="how">
         </div>
-
+<div class = "box">
         <div class ="col-left">
             <div class ="col-top" >
                 <img class= "ff" src ="\images\Integration image 1.jpg" alt="one">
-                <img class= "ff" src ="\images\Integration image 2.jpg" alt="two">
+                <img class= "ff4" src ="\images\Integration image 2.jpg" alt="two">
             </div>
             <div class ="col-bottom">
                 <img class= "ff1" src ="\images\Integration image 3.jpg" alt="three">
-                <img class= "ff" src ="\images\Integration image 4.jpg" alt="four">
+                <img class= "ff3" src ="\images\Integration image 4.jpg" alt="four">
                 <img class= "ff2" src ="\images\Integration image 5.jpg" alt="five">
             </div>
         </div>
        
     
         <div class = "col-right">
-            <h2>LOOKING FOR AN <br/>INVENTORY <br/>MANAGEMENT<br/>SYSTEM?</h2>
+            <h2>LOOKING FOR AN <br/>INVENTORY <br/>MANAGEMENT <br/>SYSTEM?</h2>
             <p>We've got you covered! Go4Commerce<br/>
                 Platform comes with the option to integrate<br/>
                 external APIs, in addition to our own<br/>
@@ -109,7 +109,7 @@
                 orders internally and externally.
             </p>
         </div>
-
+</div>
         <div class = "bottom">
             <div class = "bot">
                 <img class = "images" src = "\images\Unified Shopping Cart.jpg" alt = "USC">
@@ -216,6 +216,16 @@ padding:10px;
 padding-bottom: 30px;
 }
 
+.ff3{
+padding:10px;
+
+}
+
+.ff4{
+padding:10px;
+
+}
+
 .bottom{
     display: flex;
     justify-content: space-evenly;
@@ -227,4 +237,120 @@ padding-bottom: 30px;
     text-align: center;
 }
 
+@media only screen and (max-width:768px){
+
+    .img1{
+        transform: scale(0.9);
+    }
+
+    .apiimage{
+        transform: scale(0.9);
+    }
+
+    .howimage{
+        transform: scale(0.9);
+    }
+
+    .integration{
+        flex-direction: column;
+        text-align: center;
+        padding-top:0px;
+    }
+
+    .integrationpara{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .API{
+        flex-direction:column-reverse;
+        padding:0px;
+    }
+
+    .APIpara{
+        padding-top: 50px;
+        margin:20px;
+    }
+
+    .how{
+        flex-direction: column;
+        padding:0px;
+    }
+
+    .howpara{
+        padding-top:50px;
+        margin-left:50px;
+    }
+
+    
+.col-left{
+    text-align: center;
+  text-align: right;
+  padding-left: 0px;
+    padding: 20px;
+}
+
+.col-top{
+    display: flex;
+    justify-content: center;
+  padding: 0px;
+}
+
+.col-bottom{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.ff{
+padding:5px;
+height:120px;
+
+}
+.ff1{
+padding:5px;
+padding-bottom: 75px;
+height:60px;
+
+}
+.ff2{
+padding:5px;
+padding-bottom: 30px;
+height:60px;
+}
+
+.ff3{
+padding:5px;
+height:90px;
+}
+
+.ff4{
+margin-top: 17px;
+padding:5px;
+height: 100px;
+
+}
+
+.col-right{
+padding-top:0px;
+padding-bottom: 0px;
+margin:30px;
+}
+
+.bot{
+    padding:20px;
+    }
+    .bottom{
+        flex-direction: column;
+        padding:10px;
+        padding-bottom: 50px;
+    }
+
+}
 </style>

@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -238,7 +238,7 @@ h3{
     padding-top: 20px;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:600px){
     .admin h1{
     font-size: 40px;
 }

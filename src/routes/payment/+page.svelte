@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -173,7 +173,55 @@ h2{
     height:120px;
 }
 
+@media only screen and (max-width:600px){
+    .multipleimage{
+        transform: scale(0.9);
+    }
 
+    .checkimage{
+        transform: scale(0.9);
+    }
+    .payment{
+        flex-direction: column;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .paymentpara{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        margin:10px;
+    }
+
+    .multiple{
+        flex-direction: column-reverse;
+        padding-top:0px;
+       
+    }
+
+    .multiplepara{
+        margin:20px;
+    }
+
+    .check{
+        flex-direction: column;
+        padding:0px;
+       
+    }
+
+    .checkpara{
+        margin:10px;
+    }
+
+    .bot{
+    padding:20px;
+    }
+    .bottom{
+        flex-direction: column;
+        padding:20px;
+        padding-bottom: 50px;
+    }
+}
 
 
 </style>

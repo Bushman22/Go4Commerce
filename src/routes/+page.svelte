@@ -35,8 +35,8 @@
                 </div>
             </div>
             <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-            <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-            <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+            <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+            <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
         </ul>
         <div class="ham" onclick="toggleClass()">
             <h1>&#9776;</h1>
@@ -264,7 +264,7 @@ padding:10px;
    padding-top: 150px;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:600px){
 
 .img1{
     transform: scale(0.9);
@@ -274,7 +274,7 @@ padding:10px;
 
 .img2{
     height:320px;
-    -left: 0px;
+    left: 0px;
 }
 
 .img3{

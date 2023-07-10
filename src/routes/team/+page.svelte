@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -44,7 +44,7 @@
 
     <div class ="team">
         <div class ="teampara">
-            <h1>MEET THE<br/>TEAM</h1>
+            <h1>MEET THE <br/>TEAM</h1>
         </div>
         <img class= "img1" src ="\images\Meet the team banner illustration.jpg" alt="banner" style = height:400px>
         </div>
@@ -66,8 +66,8 @@
             </div>
             <div class="cent">
                 <img class = "images" src = "\images\Barry Saxton.jpg" alt = "barry saxton">
-                <h3>BARRY SAXTON</h3>
-                <p>Strategy and Business Development<br/>Advisor</p>
+                <h3>KEAGAN BUSH</h3>
+                <p>Strategy and Business Development <br/>Advisor</p>
             </div>
         </div>
 
@@ -92,7 +92,7 @@
             </div>
             <div class="cent">
                 <img class = "images" src = "\images\mischka kruger.jpg" alt = "mischka kruger">
-                <h3>MISCHKA KRUGER</h3>
+                <h3>JAY SLOAN</h3>
                 <p>UX/UI Designer</p>
             </div>
         </div>
@@ -114,7 +114,7 @@
             <div class="cent">
                 <img class = "images" src = "\images\Vincent Oosthuizen.jpg" alt = "Vincent">
                 <h3>VINCENT OOSTHUIZEN</h3>
-                <p>Architecture and integrations IT<br/>Manager</p>
+                <p>Architecture and integrations IT <br/>Manager</p>
             </div>
         </div>
 
@@ -182,5 +182,47 @@
     padding-bottom: 100px;
 }
 
+@media only screen and (max-width:600px){
+    .img1{
+        transform: scale(0.9);
+    }
+    .team{
+        flex-direction: column;
+        text-align: center;
+        padding:0px;
+    }
+
+    .build{
+        margin:30px;
+        padding:0px;
+    }
+
+    .teampara{
+        padding:30px;
+    }
+
+    .cent{
+    padding:20px;
+    }
+    .center1{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .center2{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .center3{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .center4{
+        flex-direction: column;
+        padding:10px;
+    }
+}
 
 </style>

@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -43,9 +43,9 @@
     </header>
     <div class ="resellers">
         <div class ="resellerspara">
-            <h1>OUR<br/>RESELLERS</h1>
+            <h1>OUR <br/>RESELLERS</h1>
         </div>
-        <img class= "img1" src ="\images\Our reseller banner illustration-1.jpg" alt="banner" style = height:400px>
+        <img class= "resellersimg" src ="\images\Our reseller banner illustration-1.jpg" alt="banner" style = height:400px>
         </div>
 
         <div class = "build">
@@ -68,6 +68,13 @@
 
         <div class="map">
             <img class = "mapimage" src = "\images\map.png" alt="map">
+        </div>
+
+        <div class="go4it">
+            <a href = "https://www.go4itafrica.com"><img class="GO4" src ="\images\Go4IT Africa Logo 1.png" alt="africa"></a>
+            <a href = "https://www.go4itusa.com"><img class="GO4" src ="\images\go4it usa 1.png" alt="USA"></a>
+            <a href = "https://www.go4itunitedkingdom.com"><img class="GO4" src ="\images\go4itunitedkingdom.png" alt="UK"></a>
+            <a href = "https://www.crosshair.com"><img class="GO4" src ="\images\Crosshair tech logo bold 1.png" alt="crosshair"></a>
         </div>
 
         <div class = "footer">
@@ -115,5 +122,56 @@
     text-align: center;
 }
 
+.go4it{
+    display: none;
+    text-align: center;
+    
+}
+
+.GO4{
+    transform: scale(1.5);
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+@media only screen and (max-width:600px){
+
+
+    .buildimage{
+        transform: scale(0.9);
+        padding: 0px;
+    }
+
+    .resellers{
+        flex-direction: column;
+        text-align: center;
+        padding:0px;
+    }
+
+    .resellerspara{
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    .build{
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+    .buildpara{
+        margin:20px;
+        padding-bottom:30px;
+    }
+
+    .map{
+        display:none;
+    }
+    .go4it{
+        display:flex;
+        flex-direction: column;
+    }
+
+    
+}
 
 </style>

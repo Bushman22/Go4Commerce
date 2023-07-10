@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -219,4 +219,69 @@ p{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width:768px){
+
+    .expimage{
+        transform: scale(0.9);
+    }
+
+    .howpic{
+        transform: scale(0.9);
+    }
+
+   .unified{
+    flex-direction: column;
+    text-align: center;
+    padding:0px;
+   }
+   .unifiedpara{
+    padding-top:20px;
+    padding-bottom:40px;
+   }
+   
+   .exp{
+    flex-direction: column-reverse;
+    padding-top:0px;
+   }
+
+   .exppara{
+    padding-top:40px;
+    margin: 20px;
+   }
+
+   .how{
+    flex-direction: column;
+    padding-top: 0px;
+   }
+
+   .howpara{
+    margin:10px;
+   }
+
+   .bot{
+    padding:20px;
+    }
+
+
+    .bottom1{
+        flex-direction: column;
+        padding:10px;
+        padding-bottom: 10px;
+    }
+
+    .bottom2{
+        flex-direction: column;
+        padding:10px;
+        padding-bottom: 10px;
+    }
+
+    .bottom3{
+        flex-direction: column;
+        padding:10px;
+        padding-bottom: 50px;
+    }
+
+}
+
 </style>

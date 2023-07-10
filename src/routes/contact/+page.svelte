@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact Us</a></li>
-                <li class="nav-item1"><a href="/" class="nav-link1">Book a Meeting</a></li>
-                <li class="nav-item2"><a href="/admin" class="nav-link1">Admin Login</a></li>
+                <li class="nav-item1"><a href="/contact" class="nav-link1">Book a Meeting</a></li>
+                <li class="nav-item2"><a href="https://main.go4trek.com/auth/login" class="nav-link1">Emmi Admin Portal</a></li>
             </ul>
             <div class="ham" onclick="toggleClass()">
                 <h1>&#9776;</h1>
@@ -44,9 +44,9 @@
 
     <div class ="contact">
         <div class ="contactpara">
-            <h1>GET IN<br/>TOUCH WITH<br/>GO4COMMERCE</h1>
+            <h1>GET IN <br/>TOUCH WITH <br/>GO4COMMERCE</h1>
         </div>
-        <a href = "/"><img class="logo2" src ="\images\go4logo.png" alt="logo" style=height:40px></a>
+        <img class= "img4" src ="\images\Contact us banner illustration.jpg" alt="contact">
         </div>
 
 </body>
@@ -64,7 +64,21 @@
 }
 
 
+@media only screen and (max-width:600px){
 
+.img4{
+    transform: scale(0.9);
+}
+    .contact{
+        flex-direction: column;
+        padding:0px;
+    }
+
+    .contactpara{
+        margin: 20px;
+        padding:0px;
+    }
+}
 
 
 
