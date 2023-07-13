@@ -71,7 +71,7 @@
 
          <div class = "middle1">
             <div class = "mid">
-                <img class= "images" src ="\images\template.jpg" alt="Temp">
+                <img class= "images" src ="\images\template.png" alt="Temp">
                 <h3>Templates</h3>
                 <p>Choose from one of our ready-made<br/>
                     templates that already have code base and<br/>

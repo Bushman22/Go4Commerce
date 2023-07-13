@@ -65,9 +65,9 @@
                 <p>CEO</p>
             </div>
             <div class="cent">
-                <img class = "images" src = "\images\Barry Saxton.jpg" alt = "barry saxton">
+                <img class = "images" src = "\images\Keagan Bush.jpg" alt = "Keagan Bush">
                 <h3>KEAGAN BUSH</h3>
-                <p>Strategy and Business Development <br/>Advisor</p>
+                <p>Software Developer</p>
             </div>
         </div>
 
@@ -91,9 +91,9 @@
                 <p>Full stack Developer</p>
             </div>
             <div class="cent">
-                <img class = "images" src = "\images\mischka kruger.jpg" alt = "mischka kruger">
+                <img class = "images" src = "\images\Jay Sloan.jpg" alt = "Jay Sloan">
                 <h3>JAY SLOAN</h3>
-                <p>UX/UI Designer</p>
+                <p>Software Developer</p>
             </div>
         </div>
 

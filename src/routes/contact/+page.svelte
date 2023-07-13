@@ -46,7 +46,7 @@
         <div class ="contactpara">
             <h1>GET IN <br/>TOUCH WITH <br/>GO4COMMERCE</h1>
         </div>
-        <img class= "img4" src ="\images\Contact us banner illustration.jpg" alt="contact">
+        <img class= "img4" src ="\images\COntact us banner illustration.jpg" alt="contact">
         </div>
 
 </body>

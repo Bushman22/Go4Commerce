@@ -45,7 +45,7 @@
         <div class ="resellerspara">
             <h1>OUR <br/>RESELLERS</h1>
         </div>
-        <img class= "resellersimg" src ="\images\Our reseller banner illustration-1.jpg" alt="banner" style = height:400px>
+        <img class= "resellersimg" src ="\images\Our reseller banner illustration.jpg" alt="banner" style = height:400px>
         </div>
 
         <div class = "build">

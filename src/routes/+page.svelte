@@ -123,7 +123,7 @@
                         <a href = "/resellers"><h4>Our Resellers &#x2192</h4></a>
                    
                 </div>
-                <img class= "img4" src ="\images\Homepage hire an expert illustration.jpg" alt="expert">
+                <img class= "img4" src ="\images\Homepage hire an expert illustration (2).jpg" alt="expert">
             </div>
 
 <div class = "footer">
