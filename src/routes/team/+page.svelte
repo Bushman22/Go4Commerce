@@ -72,7 +72,7 @@
                 <p>CEO</p>
             </div>
             <div class="cent">
-                <img class = "images" src = "\images\Keagan Bush.jpg" alt = "Keagan Bush">
+                <img class = "images" src = "\images\Keagan Bush.png" alt = "Keagan Bush">
                 <h3>KEAGAN BUSH</h3>
                 <p>Software Developer</p>
             </div>
