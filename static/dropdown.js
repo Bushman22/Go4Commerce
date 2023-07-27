@@ -19,8 +19,6 @@ function myFunction1() {
     }
   }
 
-  
-  
 
   function toggleClass(){
 
@@ -30,5 +28,5 @@ function myFunction1() {
 }
   
 
-  
+
 

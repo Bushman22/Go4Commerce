@@ -1,10 +1,16 @@
 
-<script>
-
-</script>
 <title>Features</title>
 <body>
     <link rel="stylesheet" type= "text/css" href="style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BF47RSB0BT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BF47RSB0BT');
+</script>
     <script src = "dropdown.js"></script>
     <header class="header">
         <nav class="navbar">
