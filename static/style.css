@@ -53,13 +53,14 @@ body{
 }
 
 .logo1{
- padding-left: 20px;
+ padding-left: 50px;
  height:25px;
  
 }
 
 .logo2{
-    padding-left: 100px;
+    padding-top: 30px;
+    padding-left: 00px;
     
 }
 
@@ -193,10 +194,77 @@ a {
     display:block;
 }
 
-.footer{
-    width:110%;
-    background-color:lightgray ;
+.footertop{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px 0px;
+    padding-bottom: 10px;
+}
+
+.footerbottom{
     padding-top: 50px;
+    display: flex;
+    padding-left: 30px;
+    margin: 0px 0px;
+    padding-bottom: 20px;
+}
+
+.footerbottom p{
+    padding-right: 20px;
+    align-self: baseline;
+}
+
+.footerbottom img{
+align-self:baseline;
+}
+.footertext{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.footer{
+    font-family: Poppins,sans-serif,Arial;
+    width:100%;
+    padding-top: 20px;
+    background-color: rgb(45, 45, 45);
+    border-top: 5px solid rgb(223, 97, 97);
+}
+
+.footer a:hover{
+  text-decoration: underline white;
+}
+.footer h3{
+    color:white;
+}
+
+.footercol1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footercol1 a{
+    color:white;
+}
+
+.footercol2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footercol2 a{
+    color:white;
+}
+
+.footercol3{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footercol3 a{
+    color:white;
 }
 
 
@@ -204,6 +272,7 @@ a {
 
 @media(max-width: 768px) {
 
+    
     br{
         display: none;
     }
@@ -217,9 +286,15 @@ a {
 
     .footer{
         width:100%;
-        background-color:lightgray;
     }
 
+    .footertop {
+        flex-direction: column;
+        padding-left: 50px;
+        }
+.footerbottom{
+flex-direction: column;
+}
   
     .dropdown .dropbtn{
         width: 100%; 
