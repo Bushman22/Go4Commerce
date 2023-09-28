@@ -5,6 +5,7 @@
   <!-- Google tag (gtag.js) -->
   <!-- Google tag (gtag.js) -->
   <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-BF47RSB0BT"
@@ -144,11 +145,6 @@
       />
       <h3>PAVEL VOLYNETS</h3>
       <p>Full stack Developer</p>
-    </div>
-    <div class="cent">
-      <img class="images" src="\images\Jay Sloan.jpg" alt="Jay Sloan" />
-      <h3>JAY SLOAN</h3>
-      <p>Software Developer</p>
     </div>
   </div>
 
