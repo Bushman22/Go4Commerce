@@ -137,22 +137,30 @@
   </div>
 
   <div class="center3">
+
+    
     <div class="cent">
       <img
         class="images"
-        src="\images\pavel volynets.jpg"
+        src="\images\pavel.jpg"
         alt="Pavel volynets"
       />
       <h3>PAVEL VOLYNETS</h3>
       <p>Full stack Developer</p>
     </div>
+
+    <div class="cent">
+      <img class="images" src="\images\cameron.jpg" alt="JM" />
+      <h3>CAMERON FRASCA</h3>
+      <p>Mobile app & Front-end Developer</p>
+    </div>
   </div>
 
   <div class="center4">
     <div class="cent">
-      <img class="images" src="\images\jeanne-marie rossouw.png" alt="JM" />
-      <h3>JEANNE-MARIE ROSSOUW</h3>
-      <p>UX/UI Designer</p>
+      <img class="images" src="\images\bronwynthomson.jpg" alt="JM" />
+      <h3>BRONWYN THOMSON</h3>
+      <p>UI/UX Designer</p>
     </div>
     <div class="cent">
       <img class="images" src="\images\Thandiwe dube.jpg" alt="Thandiwe" />
