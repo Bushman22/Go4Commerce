@@ -63,7 +63,7 @@
           <a href="/contact" class="nav-link">Contact Us</a>
         </li>
         <li class="nav-item1">
-          <a href="/contact" class="nav-link1">Book a Meeting</a>
+          <a href="https://meetings.hubspot.com/james-elstob" target = "_blank"  class="nav-link1">Book a Meeting</a>
         </li>
         <li class="nav-item2">
           <a href="https://main.go4trek.com/auth/login" class="nav-link1"
